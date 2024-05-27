@@ -345,7 +345,7 @@ input{
     align-items: start;
     flex-direction: column;
     width: 50%;
-    height: 597px;
+    height: 539px;
 }
 .left__upper{   
     width: 100%;
@@ -447,4 +447,244 @@ h2{
     font-family: var(--font-family);
     text-align: center;
     color: #f8f200;
+}
+.lower__left__buttons__second{
+    display: flex;
+    gap: 10px;
+    align-items: center;    
+    margin-top: 20px;
+    color: white;
+}
+.background4{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 625px;
+    margin-top: 2845px;
+    left: 0px;
+    z-index: -4;
+}
+.background4__left{
+    background: url(img/disks.png)no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+    left: 0px;
+}
+.background4__right{
+    width: 50%;
+    height: 100%;
+    background-color: #000;
+}
+.section4{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 425px;
+}
+.section4__left{
+    width: 50%;
+    height: 425px;
+}
+.section4__right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    width: 50%;
+    height: 425px;
+}
+.section4__right__upper{
+    width: 300px;
+    height: 126px;
+    color: white;
+}
+.section4__right__center{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 200px;
+    font-family: var(--font-family);
+}
+.section4__right__center__text1{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    height: 50px;
+    color: white;
+}
+.section4__right__center__text1__left{
+    width: 32px;
+    height: 32px;
+    background: url(img/disk.svg) no-repeat;
+    background-size: cover;
+}
+.section4__right__center__text1__right{
+    width: 250px;
+    height: 32px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.section4__right__center__text2{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    height: 50px;
+    color: white;
+}
+.section4__right__center__text2__left{
+    width: 32px;
+    height: 32px;
+    background: url(img/board.svg) no-repeat;
+    background-size: cover;
+}
+.section4__right__center__text2__right{
+    width: 250px;
+    height: 32px;
+    margin-left: 10px;
+}
+.section4__right__center__text3{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    height: 50px;
+    color: white;
+    margin-bottom: 30px;
+}
+.section4__right__center__text3__left{
+    width: 32px;
+    height: 32px;
+    background: url(img/imgs.svg) no-repeat;
+    background-size: cover;
+}
+.section4__right__center__text3__right{
+    width: 300px;
+    height: 32px;
+    margin-left: 10px;
+}
+.section4__right__lower{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 40px;
+    width: 400px;
+    height: 200px;
+}
+.section4__right__lower__left{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 160px;
+}
+.section4__right__lower__left__ico1{
+    width: 62px;
+    height: 35px;
+    background: url(img/PC.svg) no-repeat;
+    background-size: cover;
+}
+.section4__right__lower__left__ico2{
+    width: 58px;
+    height: 50px;
+    margin-top: 40px;
+    background: url(img/Stadia.svg) no-repeat;
+    background-size: cover;
+}
+.section4__right__lower__right{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 160px;
+}
+.section4__right__lower__right__ico1{
+    width: 177px;
+    height: 36px;
+    background: url(img/xbox-one-3\ logo.svg) no-repeat;
+    background-size: cover;
+}   
+.section4__right__lower__right__ico2{
+    width: 168px;
+    height: 36px;
+    margin-top: 45px;
+    background: url(img/ps4.svg) no-repeat;
+    background-size: cover;
+}
+.background5{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 125px;
+    margin-top: 3470px;
+    left: 0px;
+    z-index: -5;
+}
+.section5{
+    display: flex;
+    margin-top: 130px;
+    width: 100%;
+    height: 125px;
+    margin-bottom: 25px;
+}
+.section5__left{
+    display: flex;
+    width: 50%;
+    height: 125px;
+}
+.section5__left button.btn1{
+    border: none;
+    margin-top: 25px;
+    margin-left: 50px;
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    cursor: pointer;
+    background: url(img/Cyberpunk_2077_logo_1.svg) no-repeat;
+    background-size: cover;
+}
+.section5__left button.btn2{
+    border: none;
+    margin-top: 15px;
+    margin-left: 30px;
+    width: 120px;
+    height: 50px;
+    background-color: transparent;
+    cursor: pointer;
+    background: url(img/CD_Projekt_logo1.svg) no-repeat;
+    background-size: cover;
+}
+.section5__right{
+    display: flex;
+    width: 50%;
+    height: 125px;
+}
+.section5__right a{
+    margin-top: 40px;
+}
+.section5__right a.link1{
+    margin-left: 110px;
+}
+.section5__right a.link2{
+    margin-left: 30px;
+}
+.background__footer{
+    /* margin-top: 3563px;
+    width: 1520px;
+    height: 50px;
+    background-color: #000;
+    color: white;
+    z-index: -6; */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    color: white;
 }

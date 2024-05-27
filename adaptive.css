@@ -1,0 +1,42 @@
+@media only screen and (max-width: 1024px) {
+    .wrapper {
+        padding: 20px;
+        width: 900px;
+    }
+    .right__lower2__img__btn {
+        border: none;
+        background: black;
+        width: 150px;
+        height: 45px;
+        padding: 15px;
+        margin-top: 0px;
+        cursor: pointer;
+        font-family: var(--font-family);
+        text-align: center;
+        color: #f8f200;
+    }
+    .lower__right {
+        width: 500px;
+        height: 280px;
+        background: url(img/Consols.png) no-repeat;
+        background-size: cover;
+    }
+}
+
+/* small laptop */
+@media only screen and (max-width: 900px) {
+    .wrapper {
+        padding: 20px;
+        width: 750px;
+    }
+
+}
+/* planshet */
+@media only screen and (max-width: 800px) {
+}
+/* mobile */
+@media only screen and (max-width: 420px) {
+}
+/* low width mobile  */
+@media only screen and (max-width: 320px) {
+}
